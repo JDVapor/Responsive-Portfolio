@@ -281,6 +281,10 @@ footer {
     width: 92%;
     margin: 0 4%;
   }
+
+  nav {
+    margin-right: 3%;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -288,33 +292,33 @@ footer {
     padding-top: 8%;
   }
 
-	#meh {
-		float: none;
-		width: 330px;
-		height: auto;
-		margin: 2%;
-		margin-left: 19%;
-	}
+  #meh {
+    float: none;
+    width: 330px;
+    height: auto;
+    margin: 1%;
+    margin-left: 19%;
+  }
 
   #bod {
-		/* padding-top: 130px; */
     width: 92%;
     margin: 0% 4%;
   }
 
   header {
-    top: 0%;
+    padding-top: 0px;
+    bottom: 81.5%
   }
 
   #nameee {
     width: 640px;
+		margin-bottom: 10px;
   }
 
   nav {
-		float: none;
-		margin: 16%;
-		margin-bottom: 2%;
+    float: none;
+    margin-top: 0px;
+    margin-bottom: 10px;
     margin-left: 26%;
-    margin-right: 30%;
   }
 }
